@@ -1,5 +1,56 @@
-# Data-Analytics-Projects
-Here
+📌 Project Overview
+
+This project performs an in-depth Exploratory Data Analysis (EDA) on student academic performance data to identify patterns and key factors influencing student success.
+
+The analysis focuses on:
+
+Study hours impact
+
+Attendance influence
+
+Subject-wise performance trends
+
+Gender-based comparison
+
+Correlation between academic variables
+
+This project demonstrates practical skills in data cleaning, feature engineering, statistical analysis, and visualization using Python.
+
+🎯 Business / Academic Objective
+
+Educational institutions often struggle to identify performance drivers using raw data.
+
+This project aims to:
+
+Discover how study habits influence results
+
+Measure attendance impact on academic outcomes
+
+Identify top-performing and at-risk students
+
+Generate actionable academic insights
+
+🗂 Dataset Description
+
+The dataset contains 500 student records with the following features:
+
+Column	Description
+Student_ID	Unique student identifier
+Gender	M / F
+Study_Hours	Daily study hours
+Attendance	Attendance percentage
+Maths	Maths marks
+Physics	Physics marks
+Chemistry	Chemistry marks
+Computer	Computer marks
+🔹 Engineered Features
+
+Total_Marks
+
+Percentage
+
+Grade (A/B/C/D classification)
+
 🛠 Technologies Used
 
 Python
@@ -14,40 +65,35 @@ Seaborn
 
 PyCharm
 
-📈 Sample Insights
+📊 Key Analysis Performed
 
-Identified highest revenue month
+✔ Data Cleaning & Validation
+✔ Feature Engineering (Total, Percentage, Grade)
+✔ Statistical Analysis (Mean, Max, Min, Std Dev)
+✔ Study Hours vs Performance Analysis
+✔ Attendance Impact Analysis
+✔ Gender-Based Comparison
+✔ Subject-Wise Performance Analysis
+✔ Correlation Matrix Visualization
 
-Detected sales decline periods
+📈 Visualizations Included
 
-Found best-performing product
+Scatter Plot: Study Hours vs Percentage
 
-Analyzed peak selling hours
+Scatter Plot: Attendance vs Percentage
 
-Compared regional sales performance
+Box Plot: Gender vs Performance
 
-🎓 Learning Outcome
+Bar Chart: Subject Averages
 
-Through this project, I improved my understanding of:
+Heatmap: Correlation Matrix
 
-Data cleaning and preprocessing
+🔍 Key Insights
 
-GroupBy operations in Pandas
+Students with higher study hours tend to score better overall.
 
-NumPy mathematical computations
+Attendance shows a positive correlation with academic performance.
 
-Time-series feature extraction
+Certain subjects show stronger score consistency across students.
 
-Business insight generation from data
-
-Professional data visualization
-
-🔮 Future Improvements
-
-Add profit and cost analysis
-
-Build an interactive dashboard
-
-Add customer segmentation
-
-Deploy as a web-based analytics tool
+Grade distribution helps identify academic risk groups.
